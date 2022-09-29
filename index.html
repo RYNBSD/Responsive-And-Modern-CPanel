@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Panel</title>
+    <!-- Remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <!-- Floating-background-image -->
+    <div class="floating-background-image">
+        <img src="./assets/images/dash.png" alt="">
+    </div>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="logo">CPanel</a>
+            <div class="nav-mobile">
+                <ul class="list">
+                    <li class="list-item">
+                        <a href="#" class="list-link current">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Servers</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Proxies</a>
+                    </li>
+                    <li class="list-item dropdown">
+                        <button type="button" class="list-link dropdown-btn place-items-center">
+                            Settings <i class="ri-arrow-drop-right-line"></i>
+                        </button>
+                        <ul class="list dropdown-menu">
+                            <li class="list-item">
+                                <a href="#" class="list-link">Lorem</a>
+                            </li>                    
+                            <li class="list-item">
+                                <a href="#" class="list-link">Lorem</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <button class="icon-btn menu-toggle-btn menu-toggle-close place-items-center">
+                    <i class="ri-close-line"></i>
+                </button>
+            </div>
+            <div class="align-right">
+                <button class="icon-btn menu-toggle-btn menu-toggle-open place-items-center">
+                    <i class="ri-function-line"></i>
+                </button>                
+                <button class="icon-btn theme-toggle-btn place-items-center">
+                    <i class="ri-sun-line theme-light-icon"></i>
+                    <i class="ri-moon-line theme-dark-icon"></i>
+                </button>                
+                <button class="icon-btn place-items-center">
+                    <i class="ri-user-3-line"></i>
+                </button>                
+            </div>
+        </nav>
+    </header>
+    
+    <!-- Welcome-message -->
+    <section class="welcome-message">
+        <div class="container">
+            <h2 class="title independent-title">
+                Control Panel
+            </h2>
+            <div class="card">
+                <header class="card-header">
+                    <small>Getting started</small>
+                    <h2 class="title">Welcome back, Admin</h2>
+                </header>
+                <div class="card-body d-grid">
+                    <div class="card-image">
+                        <img src="./assets/images/server.svg" alt="">
+                    </div>
+                    <div class="card-information">
+                        <h1 class="title main-title">
+                            Affordable, powerful and reliable servers
+                        </h1>
+                        <p class="card-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed molestias dignissimos illo modi vitae. Sit, architecto. Obcaecati odit nobis, dolorem aut veritatis quis at, sint, aliquam libero beatae a! Consequatur.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Management-area -->
+    <section class="management-area">
+        <div class="management-area-container container d-grid">
+            <div class="card">
+                <header class="card-header">
+                    <h2 class="title">Quick actions</h2>
+                    <small>Access frequently visited places quicker</small>
+                </header>
+                <div class="card-body">
+                    <a href="#" class="card-body-link">
+                        <i class="ri-server-line"></i> Manage server
+                    </a>
+                    <a href="#" class="card-body-link">
+                        <i class="ri-shield-line"></i> Manage settings
+                    </a>
+                    <a href="#" class="card-body-link">
+                        <i class="ri-account-box-line"></i> Manage account
+                    </a>
+                    <a href="#" class="card-body-link">
+                        <i class="ri-bank-card-line"></i> Subscription
+                    </a>
+                </div>
+            </div>
+            <div class="card-group d-grid">
+                <div class="card border-green">
+                    <div>
+                        <h2 class="title">Want more power?</h2>
+                        <p class="card-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, dignissimos.</p>
+                    </div>
+                    <button class="list-link">Upgrade now</button>
+                </div>
+                <div class="card border-yellow">
+                    <h2 class="title">Want to change your RDP Port?</h2>
+                    <button class="list-link">Upgrade now</button>
+                </div>
+                <div class="card border-orange">
+                    <h2 class="title">Need Help setting up?</h2>
+                    <button class="list-link">Upgrade now</button>
+                </div>
+                <div class="card border-pink">
+                    <div>
+                        <h2 class="title">Two-Factor Authentication</h2>
+                        <p class="card-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, dignissimos.</p>
+                    </div>
+                    <button class="list-link">Upgrade now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container container">
+            <span class="copyright-information">&copy; 2022 CPanel. All rights reserved</span>
+            <ul class="list">
+                <li class="list-item">
+                    <a href="#" class="list-link">Terms and conditions</a>
+                </li>
+                <li class="list-item">
+                    <a href="#" class="list-link">Privacy policy</a>
+                </li>
+                <li class="list-item">
+                    <a href="#" class="list-link">Refund policy</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+<!-- Script     -->
+<script src="./assets/js/main.js"></script>    
+</body>
+</html>
